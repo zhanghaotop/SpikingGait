@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use SpikingGait, please cite the paper below and the OpenGait framework."
+title: "SpikingGait"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Zhang
+    given-names: Hao
+    orcid: "https://orcid.org/0009-0007-2527-4912"
+  - family-names: Zhang
+    given-names: Jie
+    orcid: "https://orcid.org/0009-0002-9657-4641"
+  - family-names: Jiang
+    given-names: Tianyu
+    orcid: "https://orcid.org/0009-0004-0643-6398"
+  - family-names: Fang
+    given-names: Zheng
+    orcid: "https://orcid.org/0009-0000-3364-8135"
+  - family-names: Hua
+    given-names: Chunsheng
+    orcid: "https://orcid.org/0000-0003-3548-0625"
+preferred-citation:
+  type: conference-paper
+  title: "SpikingGait: A Structural-to-Volumetric Spike-Driven Backbone for Gait Recognition"
+  authors:
+    - family-names: Zhang
+      given-names: Hao
+    - family-names: Zhang
+      given-names: Jie
+    - family-names: Jiang
+      given-names: Tianyu
+    - family-names: Fang
+      given-names: Zheng
+    - family-names: Hua
+      given-names: Chunsheng
+  collection-title: "Proceedings of the 34th ACM International Conference on Multimedia"
+  conference:
+    name: "ACM Multimedia 2026"
+  year: 2026
+  doi: "10.1145/3767308.3836007"
+

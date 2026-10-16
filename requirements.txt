@@ -1,0 +1,9 @@
+numpy
+PyYAML
+tqdm
+tensorboard
+opencv-python
+kornia
+einops
+py7zr
+
