@@ -1,11 +1,12 @@
 # SpikingGait
 
+![SpikingGait architecture](assets/spikinggait_architecture.png)
+
 Official PyTorch implementation of **SpikingGait: A Structural-to-Volumetric
 Spike-Driven Backbone for Gait Recognition**, accepted by ACM Multimedia 2026.
 This codebase is built on [OpenGait](https://github.com/ShiqiYu/OpenGait).
 
 [[Paper](https://doi.org/10.1145/3767308.3836007)]
-![SpikingGait architecture](assets/spikinggait_architecture.png)
 
 ## Highlights
 
