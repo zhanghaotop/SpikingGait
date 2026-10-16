@@ -8,16 +8,20 @@ This codebase is built on [OpenGait](https://github.com/ShiqiYu/OpenGait).
 
 ## Highlights
 
-- A structural-to-volumetric hierarchy for silhouette gait sequences.
-- MultiSpike activations throughout the spike-driven backbone.
-- Lightweight temporal fusion in the structural stage.
-- An OpenGait-compatible gait recognition head.
-- A SUSTech1K training and evaluation configuration.
+- **Silhouette-oriented learning.** Spike-driven gait modeling that exploits
+  binary, sparse silhouette sequences.
+- **Structural-to-volumetric hierarchy.** S-SRB captures fine structure, while
+  S-VRB aggregates long-range motion.
+- **Stable deep spiking design.** MultiSpike neurons, membrane shortcuts, and
+  GSP support deep representation learning.
+- **Accuracy and theoretical efficiency.** Competitive results across four
+  benchmarks with lower estimated arithmetic energy, including 83.3% Rank-1
+  and 75.9% mAP on Gait3D.
 
 ## Repository contents
 
 ```text
-.
+SpikingGait
 ├── opengait/modeling/models/spikinggait.py
 ├── configs/spikinggait/spikinggait_sustech1k.yaml
 ├── datasets/SUSTech1K/SUSTech1K.json
