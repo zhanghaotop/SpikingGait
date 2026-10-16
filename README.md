@@ -30,9 +30,10 @@ SpikingGait
 └── requirements.txt
 ```
 
-This repository currently provides only the SUSTech1K configuration and its
-OpenGait train/test partition (250/800 identities). The dataset, preprocessed
-subject data, training logs, and checkpoints are not distributed.
+This repository provides the SpikingGait implementation and training and
+evaluation configurations for SUSTech1K. Please obtain the dataset from its
+official source and follow OpenGait's data preparation and preprocessing
+instructions.
 
 ## Installation
 
